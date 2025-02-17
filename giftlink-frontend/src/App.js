@@ -10,7 +10,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Navbar from './components/Navbar/Navbar';
 function App() {
+  /* eslint-disable no-unused-vars */
   const navigate = useNavigate();
+  /* eslint-enable no-unused-vars */
   return (
         <>
         <Navbar/>
